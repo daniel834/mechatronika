@@ -136,9 +136,9 @@ if (kontynuuj == LOW){
     }                           
   }
 
-  lcd.clear();                     // woda mineralna
-  lcd.home();                      // to taki kompot z kamieni
-  lcd.print("Wysowanie mostu");    // :)
+  lcd.clear();                     
+  lcd.home();                      
+  lcd.print("Wysowanie mostu");    
 
   while (kraw == HIGH) {
 
